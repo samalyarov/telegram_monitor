@@ -9,7 +9,7 @@ Files included in repository:
 - `config.ini` is a config file listing username, password, phone number of a user as well as bot API settings for connection. 
 - `TG_Monitor.py` is a script itself
 - `Posts_prediction.ipynb` is an Jupyter Notebook with preliminary data analysis and model training, as well as prospects for future development and overall analysis of the model.
-- In order to be operational the folder also should include 3 .pkl files - with trained logistic regression model, a trained vectorizer model and vocabulary for said vectorizer model. All three can be created through the use of the "Posts_prediction" notebook.
+- In order to be operational the folder should also include 3 .pkl files - a trained logistic regression model, a trained vectorizer model and vocabulary for said vectorizer model. All three can be created through the use of the "Posts_prediction" notebook.
 
 The folder is designed to later on be compressed into a single .exe file (via the use of pyinstaller) for easy use.
 
