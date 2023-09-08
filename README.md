@@ -3,6 +3,8 @@
 A script is based on telethon library and utilizes a personal Telegram account for acquiring messages from open channels or channel to which the user has access. Data can be collected from multiple channels (from a list in separate files). That particular version of the scripts then utilizes text pre-processing and a trained logistic regression model to determine if the message is "of interest" and if so - forwards it to a specified channel.
 Whether the message is "of interest" is arbitrary and based purely on the samples and interests of one using the script. 
 
+In this particular example, the script is used by a concierge company to ease the monitoring of many chats in which they search for potential clients. This helped save a lot of working time (estimated up to 70-80% workload reduction on that particular task) and expand the monitoring range - the script allowed to consistently monitor many more channels and groups, thus substantially increasing the company coverage without incurring any additional costs (a single worker could monitor several times more channels).
+
 Files included in repository:
 
 - `t_channels.xlsx` is a list of channels (with names and links) from which the posts are to be loaded. The list is done in a .xlsx file for ease of communicating with colleagues (especially those with no coding experience) and leaving comments and remarks.
